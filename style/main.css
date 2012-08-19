@@ -1,0 +1,272 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+/*===== MY CODE =====*/
+
+body {
+	background-color: #e3e3e3;
+	font-family: 'Droid Sans', sans-serif;
+}
+
+header {
+	width: 1000px;
+	height: 170px;
+	margin: auto;
+	top: 10px;
+	position: relative;
+}
+
+.adamLupu {
+	position: absolute;
+	width: 160px;
+	height: 160px;
+	border-radius: 100%; 
+	border: solid 2px white;
+	background-image: url('../pics/adamlupu.jpeg');
+	left: 400px;
+	display: inline-block;
+}
+
+.headerBar {
+	position: absolute;
+	width: 600px;
+	height: 50px;
+	top: 65px;
+	left: 180px;
+	background-color: #660099;
+	border-radius: 8px;
+	border: solid 2px white;
+}
+
+header h1 {
+	position: absolute;
+	left: 190px;
+	top: 80px;
+	font-size: 24px;
+	color: white;
+	display: inline-block;
+}
+
+header h2 {
+	position: absolute;
+	right: 230px;
+	top: 80px;
+	font-size: 24px;
+	color: white;
+	display: inline-block;
+}
+
+.content {
+	width: 1000px;
+	margin: auto;
+	position: relative;
+}
+
+nav {
+	width: 700px;
+	height: 150px;
+	margin: auto;
+	list-style: none; 
+	position: relative;
+}
+
+nav a {
+	float: left;
+	width: 120px;
+	height: 120px;
+	text-align: center;
+	color: #660099;
+	border: solid 2px white;
+	border-radius: 100%; 
+	margin: 10px 5px 0px 5px;
+	line-height: 115px;
+	font-size: 18px;
+}
+
+nav .blogs {
+	background-color: white;
+	border: solid 2px #660099;
+}
+
+nav .projects {
+	background-color: white;
+	border: solid 2px #CC0066;
+}
+
+nav .presentations {
+	background-color: white;
+	border: solid 2px #99FF00;
+}
+
+nav .research {
+	background-color: white;
+	border: solid 2px #FFFF00;
+}
+
+nav .home {
+	background-color: white;
+	border: solid 2px #660099;
+}
+
+.me {
+	position: absolute;
+	height: 70px;
+	width: 140px;
+	top: 100px;
+	left: -150px;
+	background-color: #660099;
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	padding: 8px 0px 0px 0px;
+	border-radius: 8px;
+	border: solid 2px white;
+	-webkit-transform: rotate(-20deg);
+}
+
+.exhibitionSpace {
+	margin: 0px auto 20px auto;
+	width: 700px;
+	padding: 10px;
+	border: solid 2px white;
+	border-radius: 8px;
+}
+
+.missionStatement {
+	width: 400px;
+	float: left
+}
+
+.missionStatement p {
+	width: 400px;
+	margin-left: 42px;
+	line-height: 18px;
+	text-shadow: 0 1px 0 white;
+	padding: 5px;
+	border: none;
+}
+
+.contact {
+	float: right;
+	width: 200px;
+}
+
+.contact li {
+	padding: 13px 0px 0px 40px;
+	display: block;
+}
+
+.twitter {
+	background-image: url(../pics/twitterIcon.png);
+	background-repeat: no-repeat;
+	height: 40px;
+	display: block;
+}
+
+.linkedin {
+	background-image: url(../pics/linkedinIcon.png);
+	background-repeat: no-repeat;
+	height: 40px;
+	display: block;
+}
+
+.email {
+	background-image: url(../pics/email.png);
+	background-repeat: no-repeat;
+	height: 40px;
+	display: block;	
+}
+
+.exhibitionSpace h2 {
+	background-color: #ccc;
+	border-radius: 5px;
+	text-shadow: 0 1px 0 white;
+	border: solid 2px white;
+	padding: 10px;
+	margin-top: 10px;
+}
+
+p {
+	line-height: 18px;
+	text-shadow: 0 1px 0 white;
+	border: solid 2px white;
+	border-radius: 5px;
+	background-color: white;
+	margin-top: 10px;
+	padding: 10px;
+}
+
+.projects-content {
+	float: left;
+	width: 400px;
+}
+
+.sidebar {
+	float: right;
+	width: 200px;
+}
+
+.exhibitionSpace iframe {
+	padding: 10px 100px;
+}
+
+.presentationSpace li {
+	background-color: white;
+	border-radius: 5px;
+}
+	
+.clear {
+	clear: both;
+}
+
